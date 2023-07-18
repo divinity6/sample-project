@@ -1,0 +1,28 @@
+{
+  "name": "nuxt3-study",
+  "private": true,
+  "main": "nuxt.config.ts",
+  "version": "1.0.0",
+  "author": "hoon",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "gen": "nuxt generate",
+    "storybook": "start-storybook",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@storybook/builder-vite": "^0.2.7",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/vue3": "^6.5.15",
+    "@types/node": "^18",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "nuxt": "3.6.0",
+    "prettier": "^2.8.8",
+    "typescript": "5.0.4"
+  },
+  "dependencies": {}
+}

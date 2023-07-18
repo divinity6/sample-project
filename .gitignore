@@ -1,0 +1,20 @@
+# project
+/.nuxt/
+/node_modules/
+arn-error.log
+package-lock.json
+
+# bundle
+build/
+/.output/
+dist/
+
+# webstorm, intellij
+/.idea/
+
+# log
+*.log*
+# 프로젝트 제외 경로
+/client/.nuxt/
+/client/node_modules/
+/server/node_modules/
